@@ -47,7 +47,3 @@ form.addEventListener("submit", (e) => {
   e.preventDefault();
   addTodo();
 });
-if (!sessionStorage.getItem('pageRefreshed')){
-  sessionStorage.setItem('pageRefreshed', true);
-}else{
-}
