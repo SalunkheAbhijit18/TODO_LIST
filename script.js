@@ -47,6 +47,4 @@ form.addEventListener("submit", (e) => {
   e.preventDefault();
   addTodo();
 });
-window.onload = function(){
-  window.location.reload();
-}
+
